@@ -3,7 +3,9 @@ import React from 'react'
 const Footer = () =>{
   return (
     <footer>
-      <p>Created by Tomoya Sonokui, <span>©︎</span>2020</p>
+      <p>Created by Tomoya Sonokui, <span 
+      role = "img"
+      aria-label = "">©️</span>2020</p>
     </footer>
   )
 }
