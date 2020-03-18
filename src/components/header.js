@@ -6,7 +6,7 @@ import headerStyles from './header.module.scss'
 const Header = () => {
   return (
     <header className={headerStyles.header}>
-      <h1>
+      <h1 className={headerStyles.title}>
         <Link className={headerStyles.title} to='/'>
           Tomoya's Portfolio
         </Link>
