@@ -7,7 +7,7 @@
   </a>
 </p>
 <h1 align="center">
-  Tomoya's portfolio
+Tomoya's portfolio
 </h1>
 
 Tomoya's original portfolio site powered by Gastby.
