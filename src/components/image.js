@@ -1,53 +1,53 @@
-import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+// import React from 'react'
+// import { StaticQuery, graphql } from 'gatsby'
+// import Img from 'gatsby-image'
 
-// 画像ファイルパスをプロパティに取るようなコンポーネントを定義
-export default ({ filename }) => (
+// // 画像ファイルパスをプロパティに取るようなコンポーネントを定義
+// export default ({ filename }) => (
 
-  // ページじゃないコンポーネントでもGraphQLが使えるように
-  // StaticQueryタグを使う
-  <StaticQuery
+//   // ページじゃないコンポーネントでもGraphQLが使えるように
+//   // StaticQueryタグを使う
+//   <StaticQuery
 
-    // GraphQLのクエリ引数には何も指定しない！
-    query={graphql`
-      query {
-        images: allFile {
-          edges {
-            node {
-              relativePath
-              name
-              childImageSharp {
-                sizes(maxWidth: 800) {
-                  fixed(width: 400) {
-                    base64
-                    width
-                    height
-                    src
-                    srcSet
-                }
-                }
-              }
-            }
-          }
-        }
-      }
-    `}
+//     // GraphQLのクエリ引数には何も指定しない！
+//     query={graphql`
+//       query {
+//         images: allFile {
+//           edges {
+//             node {
+//               relativePath
+//               name
+//               childImageSharp {
+//                 sizes(maxWidth: 800) {
+//                   fixed(width: 400) {
+//                     base64
+//                     width
+//                     height
+//                     src
+//                     srcSet
+//                 }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     `}
 
-    // 全画像情報がdataに代入されている
-    render={(data) => {
+//     // 全画像情報がdataに代入されている
+//     render={(data) => {
 
-      // 指定した画像ファイルパス（コンポーネントのプロパティ）と
-      // 一致するgatsby-image用の情報を取得
-      const image = data.images.edges.find(n => {
-        return n.node.relativePath.includes(filename)
-      })
+//       // 指定した画像ファイルパス（コンポーネントのプロパティ）と
+//       // 一致するgatsby-image用の情報を取得
+//       const image = data.images.edges.find(n => {
+//         return n.node.relativePath.includes(filename)
+//       })
 
-      if (!image) return
+//       if (!image) return
       
-      // Imgタグでgatsby-imageで最適化された画像を表示する
-      const imageSizes = image.node.childImageSharp.sizes
-      return <Img sizes={imageSizes} />
-    }}
-  />
-)
+//       // Imgタグでgatsby-imageで最適化された画像を表示する
+//       const imageSizes = image.node.childImageSharp.sizes
+//       return <Img sizes={imageSizes} />
+//     }}
+//   />
+// )
