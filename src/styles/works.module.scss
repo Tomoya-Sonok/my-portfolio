@@ -1,0 +1,22 @@
+.content{
+  min-height: 85vh;
+  text-align: center;
+}
+
+.works{
+  font-family: 'Indie Flower', cursive;
+}
+
+.portfoliobox{
+  display: flex;
+  margin-top: 4rem;
+  justify-content: space-evenly;
+  li{
+    list-style: none;
+  }
+}
+
+.portfolio{
+  width: 300px;
+  text-align: left;
+}

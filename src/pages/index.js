@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Layout from '../components/layout'
-import Home from '../pages/home'
-import About from '../pages/about'
-import Works from '../pages/works'
-import Contact from '../pages/contact'
+import Layout from '../layout/layout'
+import Home from './home'
+import About from './about'
+import Works from './works'
+import Contact from './contact'
 
 const indexPage = () => {
   return (

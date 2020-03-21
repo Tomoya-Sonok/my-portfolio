@@ -4,6 +4,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -225,7 +226,7 @@ img {
 h1 {
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 3rem;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
