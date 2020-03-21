@@ -16,13 +16,13 @@ const homePage = () => {
   return (
     <div className={homeStyles.content}>
       <div className={homeStyles.imgbox}>
-        <img className={homeStyles.image} src='/top-page.jpg' />
+        <img className={homeStyles.image} src='/top-page.jpg' alt='site-top-page' />
       </div>
       <div className={homeStyles.message}>
         <h1>Stay aware of what you love,</h1>
         <h1>consistant and confident with yourself.</h1>
       </div>
-      <a className={homeStyles.scroll}><span></span><span></span><span></span></a>
+      <a href="#about" className={homeStyles.scroll}><span></span><span></span><span></span></a>
     </div>
   )
 }
