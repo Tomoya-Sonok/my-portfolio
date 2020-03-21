@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 .header{
   background-color: #22304638;
@@ -31,8 +31,25 @@
   font-size: .9rem;
   margin-right: 1.3rem;
   text-decoration: none;
+  position: relative;
 }
 
 .nav-item:hover{
-  color: rgb(168, 184, 214);
+  color: rgb(203, 214, 233);
+}
+
+.nav-item::after{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: rgb(231, 238, 237);
+  transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.nav-item:hover::after{
+  width: 100%;
 }
