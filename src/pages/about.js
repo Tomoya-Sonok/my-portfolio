@@ -1,14 +1,14 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import aboutStyles from '../pages/about.module.scss'
 
-const AboutPage = () => {
+const aboutPage = () => {
   return (
-    <Layout>
+    <div name="about" className={aboutStyles.content}>
       <h1>About Me</h1>
       <p>I currently study and practice Gatsby.js</p>
-    </Layout>
+    </div>
   )
 }
 
-export default AboutPage
+export default aboutPage

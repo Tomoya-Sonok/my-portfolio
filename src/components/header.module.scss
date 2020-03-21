@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
 .header{
-  background-color: #521331;
+  background-color: #22304638;
   display: flex;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
 }
 
 .title{
-  color: #C9BD94;
+  color: rgb(231, 238, 237);
   font-size: 3rem;
   text-decoration: none;
   padding: 1rem;
+  font-family: 'Indie Flower', cursive;
 }
 
 .nav-list{
@@ -20,16 +27,12 @@
 }
 
 .nav-item{
-  color: #D4C8AD;
+  color: rgb(231, 238, 237);
   font-size: .9rem;
   margin-right: 1.3rem;
   text-decoration: none;
 }
 
 .nav-item:hover{
-  color: #C9BD94;
-}
-
-.active-nav-item{
-  color: #6B5446;
+  color: rgb(168, 184, 214);
 }

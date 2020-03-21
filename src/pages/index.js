@@ -1,16 +1,20 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import Home from '../pages/home'
+import About from '../pages/about'
+import Works from '../pages/works'
+import Contact from '../pages/contact'
 
-const IndexPage = () => {
+const indexPage = () => {
   return (
     <Layout>
-      <h1>Hello,</h1>
-      <h2>I'm Tomoya</h2>
-      <p>Need a developer? <Link to="/contact">Contact me!</Link></p>
+      <Home />
+      <About />
+      <Works />
+      <Contact />
     </Layout>
   )
 }
 
-export default IndexPage
+export default indexPage

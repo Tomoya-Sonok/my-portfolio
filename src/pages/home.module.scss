@@ -1,0 +1,12 @@
+.content{
+  min-height: 85vh;
+  position: relative;
+}
+
+.message{
+  width: max-content;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

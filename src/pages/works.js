@@ -1,14 +1,14 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import worksStyles from '../pages/works.module.scss'
 
-const WorksPage = () => {
+const worksPage = () => {
   return (
-    <Layout>
+    <div name="works" className={worksStyles.content}>
       <h1>Works</h1>
       <p>My works will show up here later on.</p>
-    </Layout>
+    </div>
   )
 }
 
-export default WorksPage
+export default worksPage
