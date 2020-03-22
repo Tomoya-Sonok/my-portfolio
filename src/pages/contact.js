@@ -11,11 +11,11 @@ const contactPage = () => {
         <div className={contactStyles.topForm}>
           <div className={contactStyles.innerForm}>
             <div className={contactStyles.label}>name</div>
-            <input type="text" placeholder="Yamada Taro"/>
+            <input type="text" placeholder="Yamada Taro" />
           </div>
           <div className={contactStyles.innerForm}>
             <div className={contactStyles.label}>email</div>
-            <input type="text" placeholder="example@gmail.com"/>
+            <input type="text" placeholder="example@gmail.com" />
           </div>
           <div className={contactStyles.innerForm}>
             <div className={contactStyles.label}>phone</div>
