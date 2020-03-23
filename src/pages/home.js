@@ -20,7 +20,7 @@ const homePage = () => {
       </div>
       <div className={homeStyles.messagebox}>
         <div className={homeStyles.message}>Stay aware of what you love,</div>
-        <div className={homeStyles.message}>consistant and confident with yourself.</div>
+        <div className={homeStyles.message}>consistent and confident with yourself.</div>
       </div>
       <a href="#about" className={homeStyles.scroll}><span></span><span></span><span></span></a>
     </div>
