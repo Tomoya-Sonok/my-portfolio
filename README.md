@@ -12,7 +12,7 @@ Tomoya's portfolio
 
 Tomoya's original portfolio site powered by Gastby.
 
-_You can check my site [here]("https://competent-almeida-c64f95.netlify.com") 🔥_
+_You can check my site [here](https://competent-almeida-c64f95.netlify.com) 🔥_
  
 ## 🐱‍🐉 Dependency
 ```
