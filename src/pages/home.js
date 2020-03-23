@@ -16,7 +16,7 @@ const homePage = () => {
   return (
     <div className={homeStyles.content}>
       <div className={homeStyles.imgbox}>
-        <img className={homeStyles.image} src='/top-page8.jpg' alt='site-top-page' />
+        <img className={homeStyles.image} src='/top-page1.jpg' alt='site-top-page' />
       </div>
       <div className={homeStyles.messagebox}>
         <div className={homeStyles.message}>Stay aware of what you love,</div>
