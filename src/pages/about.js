@@ -10,7 +10,7 @@ const aboutPage = () => {
         <img className={aboutStyles.image} src='/about.jpg' alt='profile-img' />
         <div className={aboutStyles.description}>
           <h2>Tomoya Sonokui / Web Developer</h2>
-          <h4>学習中: HTML/CSS, JavaScript, Ruby, Ruby on Rails, MySQL, React, Gatsby.js, GraphQl</h4>
+          <h4>学習中: HTML/CSS, JavaScript, Ruby, Ruby on Rails, MySQL, React, Gatsby.js, GraphQL</h4>
           <p>
             広島県出身の駆け出しWebエンジニア。13歳からずっと英語オタクで、洋画や洋楽をこよなく愛する。
             大学3年次にロサンゼルスの日系コンサル企業にてインターンシップを経験し、ビジネスにも興味をもつ（主にマーケティング）。
