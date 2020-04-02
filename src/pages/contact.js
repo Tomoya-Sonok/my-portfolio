@@ -35,7 +35,7 @@ const contactPage = () => {
             <textarea placeholder="your message" />
           </div>
         </div>
-        <div className={contactStyles.btn}>send form</div>
+        <button type="submit" className={contactStyles.btn}>send form</button>
       </div>
     </form>
   )
