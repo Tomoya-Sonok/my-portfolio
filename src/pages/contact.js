@@ -4,7 +4,8 @@ import contactStyles from '../styles/contact.module.scss'
 
 const contactPage = () => {
   return (
-    <div name="contact" className={contactStyles.content}>
+    <div name="contact" method="POST" data-netlify="true" className={contactStyles.content}>
+      <input type="hidden" name="form-name" value="contact" />
       <h1 className={contactStyles.contact}>Contact</h1>
       <p>The best way to reach me is via <a href="https://twitter.com/@techguy10308" target="__blank">@techguy10308</a> on Twitter</p>
       <div className={contactStyles.form}>
