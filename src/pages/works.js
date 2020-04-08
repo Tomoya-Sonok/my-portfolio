@@ -15,7 +15,7 @@ const worksPage = () => {
               <img src="/ootd-toppage.jpg" alt="portfolio" />
             </a>
             <p className={worksStyles.devEnvHeader}>開発環境:</p>
-            <p className={worksStyles.devEnv}>Ruby/Rails/MySQL/jQuery/AWS/Nginx/Unicorn</p>
+            <p className={worksStyles.devEnv}>Ruby / Rails / MySQL / jQuery / Bootstrap / AWS / Nginx / Unicorn</p>
             <p>撮影したコーディネートを視覚的に整理・分類することで、服選びをより簡単にしてくれるアプリです。</p>
           </li>
           <li className={worksStyles.portfolio}>
@@ -24,7 +24,7 @@ const worksPage = () => {
               <img src="/cara-portfolio.jpg" alt="portfolio" />
             </a>
             <p className={worksStyles.devEnvHeader}>開発環境: </p>
-            <p className={worksStyles.devEnv}>React/Node.js/Gatsby.js/Netlify</p>
+            <p className={worksStyles.devEnv}>React / Node.js / Gatsby.js / Netlify</p>
             <p>Gatsbyのスターターを利用して作成した英語のポートフォリオです。</p>
           </li>
           <li className={worksStyles.portfolio}>
