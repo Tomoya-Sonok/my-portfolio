@@ -1,57 +1,114 @@
-// @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@media screen and (max-width: 540px) {
+  .header{
+    background-color: #22304638;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+  }
 
-.header{
-  background-color: #22304638;
-  display: flex;
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  width: 100%;
+  .title{
+    color: #e7eeed;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.3rem;
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  .nav-list{
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    line-height: 100px;
+    position: absolute;
+    right: 15px;
+  }
+  
+  .nav-item{
+    color: rgb(231, 238, 237);
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .nav-item:hover{
+    color: rgb(203, 214, 233);
+  }
+  
+  .nav-item::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: rgb(231, 238, 237);
+    transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+  
+  .nav-item:hover::after{
+    width: 100%;
+  }
 }
 
-.title{
-  color: rgb(231, 238, 237);
-  font-size: 3rem;
-  text-decoration: none;
-  padding: 1rem;
-  margin-top: 1.4rem;
-  margin-bottom: 1.4rem;
-  font-family: 'Indie Flower', cursive;
-}
-
-.nav-list{
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  line-height: 100px;
-  position: absolute;
-  right: 15px;
-}
-
-.nav-item{
-  color: rgb(231, 238, 237);
-  font-size: .9rem;
-  margin-right: 1.3rem;
-  text-decoration: none;
-  position: relative;
-}
-
-.nav-item:hover{
-  color: rgb(203, 214, 233);
-}
-
-.nav-item::after{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  display: block;
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: rgb(231, 238, 237);
-  transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-}
-
-.nav-item:hover::after{
-  width: 100%;
+@media screen and (min-width: 541px) {
+  .header{
+    background-color: #22304638;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+  }
+  
+  .title{
+    color: rgb(231, 238, 237);
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 1rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  .nav-list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    line-height: 100px;
+    position: absolute;
+    right: 15px;
+  }
+  
+  .nav-item{
+    color: rgb(231, 238, 237);
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .nav-item:hover{
+    color: rgb(203, 214, 233);
+  }
+  
+  .nav-item::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: rgb(231, 238, 237);
+    transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+  
+  .nav-item:hover::after{
+    width: 100%;
+  }
 }

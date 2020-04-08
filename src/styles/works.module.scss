@@ -1,36 +1,79 @@
-.content{
-  min-height: 85vh;
-  text-align: center;
+@media screen and (max-width: 540px) {
+  .content{
+    padding-top: 248px;
+    min-height: 25vh;
+    text-align: center;
+  }
+  
+  .works{
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  .portfoliobox{
+    margin-top: 2rem;
+    li{
+      list-style: none;
+      display: inline-block;
+      transition: all .3s;
+      box-sizing: border-box;
+    }
+    li:hover{
+      opacity: 0.6;
+      transform: scale(1.1);
+      transition-duration: 0.3s;
+    }
+  }
+  
+  .portfolio{
+    width: 300px;
+    text-align: left;
+    margin-bottom: 3rem;
+    .dev-env-header{
+      margin-bottom: 2px;
+    }
+    .dev-env{
+      font-size: 14px;
+    }
+  }
 }
 
-.works{
-  font-family: 'Indie Flower', cursive;
-}
 
-.portfoliobox{
-  display: flex;
-  margin-top: 4rem;
-  justify-content: space-evenly;
-  li{
-    list-style: none;
-    display: inline-block;
-    transition: all .3s;
-    box-sizing: border-box;
+@media screen and (min-width: 541px) {
+  .content{
+    padding-top: 248px;
+    min-height: 25vh;
+    text-align: center;
   }
-  li:hover{
-    opacity: 0.6;
-    transform: scale(1.1);
-    transition-duration: 0.3s;
+  
+  .works{
+    font-family: 'Indie Flower', cursive;
   }
-}
-
-.portfolio{
-  width: 300px;
-  text-align: left;
-  .dev-env-header{
-    margin-bottom: 2px;
+  
+  .portfoliobox{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-evenly;
+    li{
+      list-style: none;
+      display: inline-block;
+      transition: all .3s;
+      box-sizing: border-box;
+    }
+    li:hover{
+      opacity: 0.6;
+      transform: scale(1.1);
+      transition-duration: 0.3s;
+    }
   }
-  .dev-env{
-    font-size: 14px;
+  
+  .portfolio{
+    width: 300px;
+    text-align: left;
+    .dev-env-header{
+      margin-bottom: 2px;
+    }
+    .dev-env{
+      font-size: 14px;
+    }
   }
 }
