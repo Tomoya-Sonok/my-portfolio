@@ -28,10 +28,13 @@ const worksPage = () => {
             <p>Gatsbyのスターターを利用して作成した英語のポートフォリオです。</p>
           </li>
           <li className={worksStyles.portfolio}>
-            <h3>（作品名）</h3>
-            <img src="/300_180.jpg" alt="portfolio" />
-            <p>開発環境: </p>
-            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+            <h3>Furima App</h3>
+            <a href="http://18.178.222.209/" target="__blank">
+              <img src="/furima.jpg" alt="portfolio" />
+            </a>
+            <p className={worksStyles.devEnvHeader}>開発環境:</p>
+            <p className={worksStyles.devEnv}>Ruby / Rails / MySQL / jQuery / Bootstrap / AWS / Nginx / Unicorn</p>
+            <p>TECH::CAMPの最終課題として、5人チームで開発した某フリマサイトのクローンアプリです。（Basic認証付きなので、一般の方は見ることができません）</p>
           </li>
         </ul>
       </div>
