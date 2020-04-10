@@ -10,10 +10,11 @@
 
   .title{
     color: #e7eeed;
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-decoration: none;
     padding: 0.3rem;
-    margin: 0;
+    // margin: 0;
+    margin: 1rem 0 ;
     font-family: 'Indie Flower', cursive;
   }
 
@@ -21,7 +22,7 @@
     display: none;
     list-style-type: none;
     margin: 0;
-    line-height: 100px;
+    line-height: 200px;
     position: absolute;
     right: 15px;
   }
