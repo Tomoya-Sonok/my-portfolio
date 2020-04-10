@@ -16,6 +16,9 @@
       display: inline-block;
       transition: all .3s;
       box-sizing: border-box;
+      .portfolio-img{
+        height: 45vh;
+      }
     }
     li:hover{
       opacity: 0.6;
@@ -57,6 +60,9 @@
       display: inline-block;
       transition: all .3s;
       box-sizing: border-box;
+      .portfolio-img{
+        height: 45vh;
+      }
     }
     li:hover{
       opacity: 0.6;
