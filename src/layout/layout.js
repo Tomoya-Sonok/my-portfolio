@@ -1,17 +1,15 @@
-import React from 'react'
-import Header from '../components/header'
-import Footer from '../components/footer'
-import '../styles/index.scss'
-import layoutStyles from '../styles/layout.module.scss'
+import React from "react"
+import Header from "../components/header"
+import Footer from "../components/footer"
+import "../styles/index.scss"
+import layoutStyles from "../styles/layout.module.scss"
 
-const Layout = (props) => {
+const Layout = props => {
   return (
     <div className={layoutStyles.container}>
       <div className={layoutStyles.content}>
         <Header />
-        <div className={layoutStyles.page}>
-          {props.children}
-        </div>
+        <div className={layoutStyles.page}>{props.children}</div>
       </div>
       <Footer />
     </div>

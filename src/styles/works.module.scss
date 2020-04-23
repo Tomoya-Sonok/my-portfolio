@@ -1,83 +1,82 @@
 @media screen and (max-width: 540px) {
-  .content{
+  .content {
     padding-top: 300px;
     min-height: 25vh;
     text-align: center;
   }
-  
-  .works{
-    font-family: 'Indie Flower', cursive;
+
+  .works {
+    font-family: "Indie Flower", cursive;
   }
-  
-  .portfoliobox{
+
+  .portfoliobox {
     margin-top: 2rem;
-    li{
+    li {
       list-style: none;
       display: inline-block;
-      transition: all .3s;
+      transition: all 0.3s;
       box-sizing: border-box;
-      .portfolio-img{
+      .portfolio-img {
         height: 45vh;
       }
     }
-    li:hover{
+    li:hover {
       opacity: 0.6;
       transform: scale(1.1);
       transition-duration: 0.3s;
     }
   }
-  
-  .portfolio{
+
+  .portfolio {
     width: 300px;
     text-align: left;
     margin-bottom: 3rem;
-    .dev-env-header{
+    .dev-env-header {
       margin-bottom: 2px;
     }
-    .dev-env{
+    .dev-env {
       font-size: 14px;
     }
   }
 }
 
-
 @media screen and (min-width: 541px) {
-  .content{
+  .content {
     min-height: 25vh;
     text-align: center;
   }
-  
-  .works{
-    font-family: 'Indie Flower', cursive;
+
+  .works {
+    font-family: "Indie Flower", cursive;
   }
-  
-  .portfoliobox{
+
+  .portfoliobox {
     display: flex;
     margin-top: 4rem;
     justify-content: space-evenly;
-    li{
+    li {
       list-style: none;
       display: inline-block;
-      transition: all .3s;
+      transition: all 0.3s;
       box-sizing: border-box;
-      .portfolio-img{
+      .portfolio-img {
         height: 45vh;
       }
     }
-    li:hover{
+    li:hover {
       opacity: 0.6;
       transform: scale(1.1);
       transition-duration: 0.3s;
     }
   }
-  
-  .portfolio{
+
+  .portfolio {
     width: 300px;
     text-align: left;
-    .dev-env-header{
+    .dev-env-header {
       margin-bottom: 2px;
     }
-    .dev-env{
+    .dev-env {
       font-size: 14px;
     }
   }

@@ -1,14 +1,27 @@
-import React from 'react'
+import React from "react"
 
-import contactStyles from '../styles/contact.module.scss'
+import contactStyles from "../styles/contact.module.scss"
 
 const contactPage = () => {
   return (
-    <form name="contact" method="POST" data-netlify="true" className={contactStyles.content}>
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      className={contactStyles.content}
+    >
       <input type="hidden" name="form-name" value="contact" />
       <h1 className={contactStyles.contact}>Contact</h1>
-      <p>ご興味を持たれた企業様、お仕事をくださる方はお気軽に以下のフォームでお問い合わせください。</p>
-      <p>TwitterでのDMでも構いません。<a href="https://twitter.com/@techguy10308" target="__blank">@techguy10308</a>までどうぞ。</p>
+      <p>
+        ご興味を持たれた企業様、お仕事をくださる方はお気軽に以下のフォームでお問い合わせください。
+      </p>
+      <p>
+        TwitterでのDMでも構いません。
+        <a href="https://twitter.com/@techguy10308" target="__blank">
+          @techguy10308
+        </a>
+        までどうぞ。
+      </p>
       <div className={contactStyles.form}>
         <div className={contactStyles.topForm}>
           <div className={contactStyles.innerForm}>
@@ -36,7 +49,9 @@ const contactPage = () => {
             <textarea name="message" placeholder="your message" />
           </div>
         </div>
-        <button type="submit" className={contactStyles.btn}>send form</button>
+        <button type="submit" className={contactStyles.btn}>
+          send form
+        </button>
       </div>
     </form>
   )

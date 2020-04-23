@@ -1,42 +1,42 @@
 @media screen and (max-width: 540px) {
-  .content{
+  .content {
     min-height: 20vh;
     position: relative;
   }
-  
-  .image{
+
+  .image {
     height: 100vh;
     width: 100%;
     object-fit: cover;
   }
-  
-  .imgbox{
+
+  .imgbox {
     position: relative;
   }
-  
-  .messagebox{
+
+  .messagebox {
     width: max-content;
     position: absolute;
     top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
-  .message{
+
+  .message {
     font-size: 1.2rem;
     padding-bottom: 1rem;
     padding-left: 2.1rem;
     color: #223046c4;
     text-shadow: 0 0 1rem white;
   }
-  
-  .scroll{
+
+  .scroll {
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+
   a {
     padding-top: 80px;
     span {
@@ -61,13 +61,13 @@
     }
     span:nth-of-type(2) {
       top: 10px;
-      -webkit-animation-delay: .15s;
-      animation-delay: .15s;
+      -webkit-animation-delay: 0.15s;
+      animation-delay: 0.15s;
     }
     span:nth-of-type(3) {
       top: 20px;
-      -webkit-animation-delay: .3s;
-      animation-delay: .3s;
+      -webkit-animation-delay: 0.3s;
+      animation-delay: 0.3s;
     }
   }
   @-webkit-keyframes sdb {
@@ -95,42 +95,42 @@
 }
 
 @media screen and (min-width: 541px) {
-  .content{
+  .content {
     min-height: 85vh;
     position: relative;
   }
-  
-  .image{
+
+  .image {
     height: 100%;
     width: 100%;
   }
-  
-  .imgbox{
+
+  .imgbox {
     position: relative;
   }
-  
-  .messagebox{
+
+  .messagebox {
     width: max-content;
     position: absolute;
     top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
-  .message{
+
+  .message {
     font-size: 3rem;
     padding-bottom: 2rem;
     color: #223046c4;
     text-shadow: 0 0 1rem white;
   }
-  
-  .scroll{
+
+  .scroll {
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+
   a {
     padding-top: 80px;
     span {
@@ -155,13 +155,13 @@
     }
     span:nth-of-type(2) {
       top: 16px;
-      -webkit-animation-delay: .15s;
-      animation-delay: .15s;
+      -webkit-animation-delay: 0.15s;
+      animation-delay: 0.15s;
     }
     span:nth-of-type(3) {
       top: 32px;
-      -webkit-animation-delay: .3s;
-      animation-delay: .3s;
+      -webkit-animation-delay: 0.3s;
+      animation-delay: 0.3s;
     }
   }
   @-webkit-keyframes sdb {
